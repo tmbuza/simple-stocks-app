@@ -25,7 +25,7 @@ tickerData = yf.Ticker(tickerSymbol)
 tickerDf = tickerData.history(period='1d', start='2010-5-31', end='2020-1-31')
 
 """
-![Table 1: A typical stock data structure)](img/stock.png)
+![Table 1: A typical stock data structure](img/stock.png)
 """
 
 tickerDf.head(10).to_csv('stockhead.csv')
