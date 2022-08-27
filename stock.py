@@ -11,7 +11,7 @@ import yfinance as yf
 import pandas as pd
 
 
-## Quick glimpse
+## Exampen1: Stock data from 2010 to 2020.
 
 """
 Using `GOOGL` stock ticker symbol.
