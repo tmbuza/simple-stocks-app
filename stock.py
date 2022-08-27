@@ -4,7 +4,7 @@
 
 import streamlit as st
 """
-# Python and Steamlit Simple Apps
+# Python and Streamlit Simple Apps
 ## Integrated practical user guides
 """
 
