@@ -1,0 +1,7 @@
+streamlit
+pandas
+shap
+sklearn
+ipython
+numpy
+yfinance
