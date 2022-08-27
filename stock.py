@@ -15,7 +15,7 @@ import pandas as pd
 ## Quick glimpse
 
 """
-Using `GOOGL` stock ticker symbols like so:
+Using `GOOGL` stock ticker symbol.
 """
 tickerSymbol = 'GOOGL'
 
