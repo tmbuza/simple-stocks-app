@@ -13,7 +13,7 @@ import pandas as pd
 
 """
 ##  `GOOGL` stock data from 2010 to 2020
-Typical data structure (Table 1).
+
 """
 tickerSymbol = 'GOOGL'
 
@@ -25,7 +25,7 @@ tickerData = yf.Ticker(tickerSymbol)
 tickerDf = tickerData.history(period='1d', start='2010-5-31', end='2020-1-31')
 
 """
-![](img/stock.png)
+![Table 1: A typical stock data structure)](img/stock.png)
 """
 
 tickerDf.head(10).to_csv('stockhead.csv')
