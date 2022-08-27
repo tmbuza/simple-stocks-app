@@ -13,6 +13,7 @@ import pandas as pd
 
 """
 ##  `GOOGL` stock data from 2010 to 2020
+Typical data structure
 """
 tickerSymbol = 'GOOGL'
 
