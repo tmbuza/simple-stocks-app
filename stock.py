@@ -26,6 +26,8 @@ tickerDf = tickerData.history(period='1d', start='2010-5-31', end='2020-1-31')
 
 """
 <img src="img/stock.png" alt="Book cover" width="100%" style="padding: 50px 0px 50px 0px; float: right;"/>
+
+
 ![](img/stock.png)
 """
 
