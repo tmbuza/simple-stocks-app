@@ -10,7 +10,6 @@ import streamlit as st
 
 import yfinance as yf
 import pandas as pd
-import yfinance as yf
 
 
 ## Quick glimpse
