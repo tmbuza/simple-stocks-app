@@ -14,7 +14,7 @@ import pandas as pd
 
 
 """
-##  `GOOGL` Stock data from 2010 to 2020
+##  `GOOGL` stock data from 2010 to 2020
 """
 tickerSymbol = 'GOOGL'
 
@@ -27,7 +27,6 @@ tickerData = yf.Ticker(tickerSymbol)
 tickerDf = tickerData.history(period='1d', start='2010-5-31', end='2020-1-31')
 
 """
-## Data structure
 ![](img/stock.png)
 """
 
