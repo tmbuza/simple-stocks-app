@@ -5,7 +5,6 @@
 import streamlit as st
 """
 # Python and Streamlit Simple Apps
-## Integrated practical user guides
 """
 
 import yfinance as yf
