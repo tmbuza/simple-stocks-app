@@ -15,7 +15,7 @@ import pandas as pd
 ## Quick glimpse
 
 """
-We will work with stock data and we can get started by defining the ticker symbol. Here we choose `GOOGL` like so:
+Using `GOOGL` stock ticker symbols like so:
 """
 tickerSymbol = 'GOOGL'
 
@@ -59,4 +59,3 @@ st.line_chart(tickerDf.Volume)
 ### Line charts for **Four Features**
 """
 st.line_chart(data = tickerDf.iloc[:, 0:4])
-
