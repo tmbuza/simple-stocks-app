@@ -14,20 +14,16 @@ import pandas as pd
 
 
 """
-## Stock data from 2010 to 2020
-Using `GOOGL` stock ticker symbol.
+##  `GOOGL` Stock data from 2010 to 2020
 """
 tickerSymbol = 'GOOGL'
 
-"""
-Now, extract data from the ticker and store it in an object named `tickerData`.
-"""
+
+# Now, extract data from the ticker and store it in an object named `tickerData`.
 tickerData = yf.Ticker(tickerSymbol)
 
-"""
-Get prices for for the past ten years.
-"""
 
+# Get prices for for the past ten years.
 tickerDf = tickerData.history(period='1d', start='2010-5-31', end='2020-1-31')
 
 """
