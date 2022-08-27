@@ -8,8 +8,8 @@ import streamlit as st
 ## Integrated practical user guides
 """
 
-# import yfinance as yf
-# import pandas as pd
+import yfinance as yf
+import pandas as pd
 
 
 ## Quick glimpse
