@@ -11,13 +11,10 @@ import yfinance as yf
 import pandas as pd
 
 
-
-
 """
 ##  `GOOGL` stock data from 2010 to 2020
 """
 tickerSymbol = 'GOOGL'
-
 
 # Now, extract data from the ticker and store it in an object named `tickerData`.
 tickerData = yf.Ticker(tickerSymbol)
