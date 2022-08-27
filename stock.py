@@ -32,22 +32,22 @@ stockhead = pd.read_csv('stockhead.csv')
 stockhead
 
 """
-### Line charts for **Open**
+### Line charts for `Open`
 """
 st.line_chart(tickerDf.Open)
 
 """
-### Line charts for **Close**
+### Line charts for `Close`
 """
 st.line_chart(tickerDf.Close)
 
 """
-### Line charts for **Volume**
+### Line charts for `Volume`
 """
 st.line_chart(tickerDf.Volume)
 
 
 """
-### Line charts for **Four Features**
+### Line charts for Four Features
 """
 st.line_chart(data = tickerDf.iloc[:, 0:4])
