@@ -3,7 +3,9 @@ import streamlit as st
 
 st.write("""
 # Simple Stock Price App
-Shown are the stock **closing price** and ***volume*** of Google!
+## Example 2
+
+Credit: https://towardsdatascience.com/how-to-get-stock-data-using-python-c0de1df17e75
 """)
 
 # https://towardsdatascience.com/how-to-get-stock-data-using-python-c0de1df17e75
