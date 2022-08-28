@@ -3,7 +3,6 @@ import streamlit as st
 
 st.write("""
 # A Template for a Simple Stock Price App
-## Example 2
 
 Credit: https://towardsdatascience.com/how-to-get-stock-data-using-python-c0de1df17e75
 """)
