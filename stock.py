@@ -22,7 +22,7 @@ tickerData = yf.Ticker(tickerSymbol)
 
 
 # Get prices for for the past ten years.
-tickerDf = tickerData.history(period='1d', start='2010-5-31', end='2020-1-31')
+tickerDf = tickerData.history(period='1d', start='2010-5-31', end='2022-7-31')
 
 """
 ![](img/stock.png)
