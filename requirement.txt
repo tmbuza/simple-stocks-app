@@ -1,0 +1,15 @@
+sklearn
+numpy
+matplotlib
+pandas
+scipy
+seaborn
+graphviz
+altair
+boto3
+ccxt
+google
+gspread
+regex
+requests
+s3fs==0.4.*
